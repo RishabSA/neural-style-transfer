@@ -1,0 +1,12 @@
+[project]
+name = "neural-style-transfer"
+version = "0.1.0"
+description = "Neural Style Transfer (NST) is a deep learning technique that allows us to combine the artistic style of one image with the content of another, creating unique, stylized images from ordinary photos. NST opens up a world of creative possibilities!"
+readme = "README.md"
+requires-python = ">=3.13.7"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+]
